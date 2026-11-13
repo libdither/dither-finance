@@ -62,12 +62,12 @@ def build(con) -> dict:
         if mine > 0:
             spend.append([d, cat, merchant, round(amt * mine, 2), acct, tid, life, tags, what])
 
-    asof = max(r["date"][:10] for r in rows)
+    asof = max((r["date"][:10] for r in rows), default=date.today().isoformat())
     # months before every account's history is in (the page shades them): config [dashboard] full_from, else the
     # first month of a checking account
     full_from = config.get("dashboard", "full_from") or (con.execute(
         "SELECT min(l.date) FROM ledger l JOIN account a ON a.id = l.account_id WHERE a.kind = 'checking'").fetchone()[0]
-        or rows[0]["date"])[:7]
+        or asof)[:7]
     # the same spending with durable goods spread over their life (a slice a month, up to asof)
     smooth = []
     for row in spend:
@@ -111,7 +111,7 @@ def _worth(con, people: list) -> dict:
     balances from flows. Over time: the ledger's running balance of every account that has a known
     starting point, priced at the last price seen on or before each day (trades and holdings for
     securities, daily closes for coins)."""
-    asof = con.execute("SELECT max(as_of) FROM snapshot WHERE kind = 'balance'").fetchone()[0][:10]
+    asof = (con.execute("SELECT max(as_of) FROM snapshot WHERE kind = 'balance'").fetchone()[0] or date.today().isoformat())[:10]
     names = {r["account_id"]: r["name"] for r in con.execute("SELECT account_id, name FROM account_annotation")}
     # a brokerage's reported balance is the whole account (cash and holdings): its cash is the balance less the
     # holdings in the same snapshot, as reconcile's cash check reads it

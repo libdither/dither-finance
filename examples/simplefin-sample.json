@@ -1,0 +1,901 @@
+{
+ "errlist": [],
+ "connections": [
+  {
+   "conn_id": "ex-conn",
+   "org_name": "Acme Bank"
+  }
+ ],
+ "accounts": [
+  {
+   "id": "ex-chk",
+   "name": "Everyday Checking ...1234",
+   "conn_id": "ex-conn",
+   "currency": "USD",
+   "balance": "19977.69",
+   "balance-date": 1751392800,
+   "transactions": [
+    {
+     "id": "ex-chk-0000",
+     "posted": 1735732800,
+     "amount": "-1400.00",
+     "description": "ZELLE TO ANN LEE RENT"
+    },
+    {
+     "id": "ex-chk-0001",
+     "posted": 1736078400,
+     "amount": "-62.10",
+     "description": "PG&E WEB ONLINE PAYMENT"
+    },
+    {
+     "id": "ex-chk-0002",
+     "posted": 1736510400,
+     "amount": "-45.00",
+     "description": "VERIZON WIRELESS PAYMENT"
+    },
+    {
+     "id": "ex-chk-0003",
+     "posted": 1736942400,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0004",
+     "posted": 1737460800,
+     "amount": "-200.00",
+     "description": "COINBASE.COM BUY"
+    },
+    {
+     "id": "ex-chk-0005",
+     "posted": 1738065600,
+     "amount": "1.12",
+     "description": "INTEREST PAYMENT"
+    },
+    {
+     "id": "ex-chk-0006",
+     "posted": 1738065600,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0007",
+     "posted": 1738411200,
+     "amount": "-1400.00",
+     "description": "ZELLE TO ANN LEE RENT"
+    },
+    {
+     "id": "ex-chk-0008",
+     "posted": 1738584000,
+     "amount": "-789.82",
+     "description": "ONLINE TRANSFER TO CARD ...5678"
+    },
+    {
+     "id": "ex-chk-0009",
+     "posted": 1738756800,
+     "amount": "-62.10",
+     "description": "PG&E WEB ONLINE PAYMENT"
+    },
+    {
+     "id": "ex-chk-0010",
+     "posted": 1739188800,
+     "amount": "-45.00",
+     "description": "VERIZON WIRELESS PAYMENT"
+    },
+    {
+     "id": "ex-chk-0011",
+     "posted": 1739620800,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0012",
+     "posted": 1740139200,
+     "amount": "-200.00",
+     "description": "COINBASE.COM BUY"
+    },
+    {
+     "id": "ex-chk-0013",
+     "posted": 1740744000,
+     "amount": "1.12",
+     "description": "INTEREST PAYMENT"
+    },
+    {
+     "id": "ex-chk-0014",
+     "posted": 1740744000,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0015",
+     "posted": 1740830400,
+     "amount": "-1400.00",
+     "description": "ZELLE TO ANN LEE RENT"
+    },
+    {
+     "id": "ex-chk-0016",
+     "posted": 1741003200,
+     "amount": "219.13",
+     "description": "ONLINE TRANSFER TO CARD ...5678"
+    },
+    {
+     "id": "ex-chk-0017",
+     "posted": 1741176000,
+     "amount": "-62.10",
+     "description": "PG&E WEB ONLINE PAYMENT"
+    },
+    {
+     "id": "ex-chk-0018",
+     "posted": 1741608000,
+     "amount": "-45.00",
+     "description": "VERIZON WIRELESS PAYMENT"
+    },
+    {
+     "id": "ex-chk-0019",
+     "posted": 1742040000,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0020",
+     "posted": 1742558400,
+     "amount": "-200.00",
+     "description": "COINBASE.COM BUY"
+    },
+    {
+     "id": "ex-chk-0021",
+     "posted": 1743163200,
+     "amount": "1.12",
+     "description": "INTEREST PAYMENT"
+    },
+    {
+     "id": "ex-chk-0022",
+     "posted": 1743163200,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0023",
+     "posted": 1743508800,
+     "amount": "-1400.00",
+     "description": "ZELLE TO ANN LEE RENT"
+    },
+    {
+     "id": "ex-chk-0024",
+     "posted": 1743681600,
+     "amount": "-862.97",
+     "description": "ONLINE TRANSFER TO CARD ...5678"
+    },
+    {
+     "id": "ex-chk-0025",
+     "posted": 1743854400,
+     "amount": "-62.10",
+     "description": "PG&E WEB ONLINE PAYMENT"
+    },
+    {
+     "id": "ex-chk-0026",
+     "posted": 1744286400,
+     "amount": "-45.00",
+     "description": "VERIZON WIRELESS PAYMENT"
+    },
+    {
+     "id": "ex-chk-0027",
+     "posted": 1744718400,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0028",
+     "posted": 1745236800,
+     "amount": "-200.00",
+     "description": "COINBASE.COM BUY"
+    },
+    {
+     "id": "ex-chk-0029",
+     "posted": 1745841600,
+     "amount": "1.12",
+     "description": "INTEREST PAYMENT"
+    },
+    {
+     "id": "ex-chk-0030",
+     "posted": 1745841600,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0031",
+     "posted": 1746100800,
+     "amount": "-1400.00",
+     "description": "ZELLE TO ANN LEE RENT"
+    },
+    {
+     "id": "ex-chk-0032",
+     "posted": 1746273600,
+     "amount": "243.17",
+     "description": "ONLINE TRANSFER TO CARD ...5678"
+    },
+    {
+     "id": "ex-chk-0033",
+     "posted": 1746446400,
+     "amount": "-62.10",
+     "description": "PG&E WEB ONLINE PAYMENT"
+    },
+    {
+     "id": "ex-chk-0034",
+     "posted": 1746878400,
+     "amount": "-45.00",
+     "description": "VERIZON WIRELESS PAYMENT"
+    },
+    {
+     "id": "ex-chk-0035",
+     "posted": 1747310400,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0036",
+     "posted": 1747828800,
+     "amount": "-200.00",
+     "description": "COINBASE.COM BUY"
+    },
+    {
+     "id": "ex-chk-0037",
+     "posted": 1748433600,
+     "amount": "1.12",
+     "description": "INTEREST PAYMENT"
+    },
+    {
+     "id": "ex-chk-0038",
+     "posted": 1748433600,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0039",
+     "posted": 1748779200,
+     "amount": "-1400.00",
+     "description": "ZELLE TO ANN LEE RENT"
+    },
+    {
+     "id": "ex-chk-0040",
+     "posted": 1748952000,
+     "amount": "-995.94",
+     "description": "ONLINE TRANSFER TO CARD ...5678"
+    },
+    {
+     "id": "ex-chk-0041",
+     "posted": 1749124800,
+     "amount": "-62.10",
+     "description": "PG&E WEB ONLINE PAYMENT"
+    },
+    {
+     "id": "ex-chk-0042",
+     "posted": 1749556800,
+     "amount": "-45.00",
+     "description": "VERIZON WIRELESS PAYMENT"
+    },
+    {
+     "id": "ex-chk-0043",
+     "posted": 1749988800,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    },
+    {
+     "id": "ex-chk-0044",
+     "posted": 1750507200,
+     "amount": "-200.00",
+     "description": "COINBASE.COM BUY"
+    },
+    {
+     "id": "ex-chk-0045",
+     "posted": 1751112000,
+     "amount": "1.12",
+     "description": "INTEREST PAYMENT"
+    },
+    {
+     "id": "ex-chk-0046",
+     "posted": 1751112000,
+     "amount": "2450.00",
+     "description": "ACME CORP PAYROLL DIR DEP"
+    }
+   ]
+  },
+  {
+   "id": "ex-card",
+   "name": "Rewards Credit Card ...5678",
+   "conn_id": "ex-conn",
+   "currency": "USD",
+   "balance": "-1883.25",
+   "balance-date": 1751392800,
+   "transactions": [
+    {
+     "id": "ex-card-0000",
+     "posted": 1735819200,
+     "amount": "-24.54",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0001",
+     "posted": 1735992000,
+     "amount": "-84.38",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0002",
+     "posted": 1735992000,
+     "amount": "-60.64",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0003",
+     "posted": 1736164800,
+     "amount": "-40.30",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0004",
+     "posted": 1736251200,
+     "amount": "-21.16",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0005",
+     "posted": 1736510400,
+     "amount": "-10.73",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0006",
+     "posted": 1736596800,
+     "amount": "-95.52",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0007",
+     "posted": 1736683200,
+     "amount": "-15.49",
+     "description": "NETFLIX.COM"
+    },
+    {
+     "id": "ex-card-0008",
+     "posted": 1736769600,
+     "amount": "-17.71",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0009",
+     "posted": 1737028800,
+     "amount": "-97.53",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0010",
+     "posted": 1737201600,
+     "amount": "-90.19",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0011",
+     "posted": 1737201600,
+     "amount": "-20.00",
+     "description": "CLAUDE.AI SUBSCRIPTION"
+    },
+    {
+     "id": "ex-card-0012",
+     "posted": 1737633600,
+     "amount": "-22.39",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0013",
+     "posted": 1737806400,
+     "amount": "-70.86",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0014",
+     "posted": 1738238400,
+     "amount": "-118.38",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0015",
+     "posted": 1738411200,
+     "amount": "-84.64",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0016",
+     "posted": 1738584000,
+     "amount": "789.82",
+     "description": "ONLINE TRANSFER FROM CHK ...1234"
+    },
+    {
+     "id": "ex-card-0017",
+     "posted": 1738929600,
+     "amount": "-31.36",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0018",
+     "posted": 1738929600,
+     "amount": "-26.42",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0019",
+     "posted": 1739016000,
+     "amount": "-68.63",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0020",
+     "posted": 1739016000,
+     "amount": "-34.36",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0021",
+     "posted": 1739188800,
+     "amount": "-23.15",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0022",
+     "posted": 1739275200,
+     "amount": "-30.74",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0023",
+     "posted": 1739361600,
+     "amount": "-15.49",
+     "description": "NETFLIX.COM"
+    },
+    {
+     "id": "ex-card-0024",
+     "posted": 1739361600,
+     "amount": "-9.67",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0025",
+     "posted": 1739620800,
+     "amount": "-78.70",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0026",
+     "posted": 1739880000,
+     "amount": "-20.00",
+     "description": "CLAUDE.AI SUBSCRIPTION"
+    },
+    {
+     "id": "ex-card-0027",
+     "posted": 1740225600,
+     "amount": "-67.38",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0028",
+     "posted": 1740484800,
+     "amount": "-28.00",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0029",
+     "posted": 1740657600,
+     "amount": "-20.27",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0030",
+     "posted": 1740744000,
+     "amount": "-31.88",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0031",
+     "posted": 1740830400,
+     "amount": "-91.92",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0032",
+     "posted": 1740916800,
+     "amount": "-37.80",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0033",
+     "posted": 1741003200,
+     "amount": "-219.13",
+     "description": "ONLINE TRANSFER FROM CHK ...1234"
+    },
+    {
+     "id": "ex-card-0034",
+     "posted": 1741176000,
+     "amount": "-29.36",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0035",
+     "posted": 1741435200,
+     "amount": "-58.72",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0036",
+     "posted": 1741608000,
+     "amount": "-35.39",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0037",
+     "posted": 1741780800,
+     "amount": "-15.49",
+     "description": "NETFLIX.COM"
+    },
+    {
+     "id": "ex-card-0038",
+     "posted": 1742040000,
+     "amount": "-54.20",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0039",
+     "posted": 1742299200,
+     "amount": "-24.51",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0040",
+     "posted": 1742299200,
+     "amount": "-20.00",
+     "description": "CLAUDE.AI SUBSCRIPTION"
+    },
+    {
+     "id": "ex-card-0041",
+     "posted": 1742385600,
+     "amount": "-34.93",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0042",
+     "posted": 1742644800,
+     "amount": "-106.20",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0043",
+     "posted": 1742990400,
+     "amount": "-28.41",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0044",
+     "posted": 1743249600,
+     "amount": "-106.91",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0045",
+     "posted": 1743508800,
+     "amount": "-20.19",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0046",
+     "posted": 1743595200,
+     "amount": "-54.43",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0047",
+     "posted": 1743681600,
+     "amount": "862.97",
+     "description": "ONLINE TRANSFER FROM CHK ...1234"
+    },
+    {
+     "id": "ex-card-0048",
+     "posted": 1743854400,
+     "amount": "-62.26",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0049",
+     "posted": 1743854400,
+     "amount": "-31.59",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0050",
+     "posted": 1744286400,
+     "amount": "-23.34",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0051",
+     "posted": 1744459200,
+     "amount": "-52.91",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0052",
+     "posted": 1744459200,
+     "amount": "-37.83",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0053",
+     "posted": 1744459200,
+     "amount": "-15.49",
+     "description": "NETFLIX.COM"
+    },
+    {
+     "id": "ex-card-0054",
+     "posted": 1744545600,
+     "amount": "-24.28",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0055",
+     "posted": 1744891200,
+     "amount": "-8.41",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0056",
+     "posted": 1744977600,
+     "amount": "-20.00",
+     "description": "CLAUDE.AI SUBSCRIPTION"
+    },
+    {
+     "id": "ex-card-0057",
+     "posted": 1745064000,
+     "amount": "-60.97",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0058",
+     "posted": 1745496000,
+     "amount": "-21.76",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0059",
+     "posted": 1745668800,
+     "amount": "-88.24",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0060",
+     "posted": 1745755200,
+     "amount": "-12.08",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0061",
+     "posted": 1745841600,
+     "amount": "-58.61",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0062",
+     "posted": 1745928000,
+     "amount": "-27.41",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0063",
+     "posted": 1746100800,
+     "amount": "-17.09",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0064",
+     "posted": 1746187200,
+     "amount": "-16.66",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0065",
+     "posted": 1746273600,
+     "amount": "-243.17",
+     "description": "ONLINE TRANSFER FROM CHK ...1234"
+    },
+    {
+     "id": "ex-card-0066",
+     "posted": 1746273600,
+     "amount": "-70.61",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0067",
+     "posted": 1746878400,
+     "amount": "-104.14",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0068",
+     "posted": 1746964800,
+     "amount": "-28.91",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0069",
+     "posted": 1747051200,
+     "amount": "-29.04",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0070",
+     "posted": 1747051200,
+     "amount": "-15.49",
+     "description": "NETFLIX.COM"
+    },
+    {
+     "id": "ex-card-0071",
+     "posted": 1747137600,
+     "amount": "-33.24",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0072",
+     "posted": 1747137600,
+     "amount": "-14.41",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0073",
+     "posted": 1747310400,
+     "amount": "-36.04",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0074",
+     "posted": 1747483200,
+     "amount": "-100.00",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0075",
+     "posted": 1747569600,
+     "amount": "-20.00",
+     "description": "CLAUDE.AI SUBSCRIPTION"
+    },
+    {
+     "id": "ex-card-0076",
+     "posted": 1747656000,
+     "amount": "-35.40",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0077",
+     "posted": 1747915200,
+     "amount": "-19.76",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0078",
+     "posted": 1748088000,
+     "amount": "-63.91",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0079",
+     "posted": 1748174400,
+     "amount": "-34.92",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0080",
+     "posted": 1748520000,
+     "amount": "-11.62",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0081",
+     "posted": 1748606400,
+     "amount": "-32.79",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0082",
+     "posted": 1748692800,
+     "amount": "-68.74",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0083",
+     "posted": 1748779200,
+     "amount": "-36.55",
+     "description": "CHIPOTLE 0456"
+    },
+    {
+     "id": "ex-card-0084",
+     "posted": 1748865600,
+     "amount": "-18.97",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0085",
+     "posted": 1748952000,
+     "amount": "995.94",
+     "description": "ONLINE TRANSFER FROM CHK ...1234"
+    },
+    {
+     "id": "ex-card-0086",
+     "posted": 1749038400,
+     "amount": "-24.28",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0087",
+     "posted": 1749297600,
+     "amount": "-94.12",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0088",
+     "posted": 1749643200,
+     "amount": "-31.09",
+     "description": "SQ *CORNER CAFE"
+    },
+    {
+     "id": "ex-card-0089",
+     "posted": 1749729600,
+     "amount": "-24.11",
+     "description": "LYFT *RIDE"
+    },
+    {
+     "id": "ex-card-0090",
+     "posted": 1749729600,
+     "amount": "-15.49",
+     "description": "NETFLIX.COM"
+    },
+    {
+     "id": "ex-card-0091",
+     "posted": 1749902400,
+     "amount": "-63.60",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0092",
+     "posted": 1749902400,
+     "amount": "-35.88",
+     "description": "TST* NOODLE HOUSE"
+    },
+    {
+     "id": "ex-card-0093",
+     "posted": 1750248000,
+     "amount": "-20.00",
+     "description": "CLAUDE.AI SUBSCRIPTION"
+    },
+    {
+     "id": "ex-card-0094",
+     "posted": 1750507200,
+     "amount": "-80.61",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0095",
+     "posted": 1750680000,
+     "amount": "-123.44",
+     "description": "AMAZON MKTPL*AB12CD34"
+    },
+    {
+     "id": "ex-card-0096",
+     "posted": 1751112000,
+     "amount": "-103.29",
+     "description": "TRADER JOE S #123 SPRINGFIELD"
+    },
+    {
+     "id": "ex-card-0097",
+     "posted": 1751284800,
+     "amount": "-21.33",
+     "description": "SQ *CORNER CAFE"
+    }
+   ]
+  }
+ ]
+}
