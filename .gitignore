@@ -1,0 +1,10 @@
+data
+secrets
+.venv/
+__pycache__/
+.ruff_cache/
+*.db
+*.db-wal
+*.db-shm
+CLAUDE.local.md
+config.toml

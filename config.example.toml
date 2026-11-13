@@ -1,0 +1,24 @@
+# Copy to $FINANCE_HOME/config.toml and edit. Every key is optional; the values shown are the defaults.
+
+[portal]
+host = "127.0.0.1"   # the address `ledger serve` listens on (a LAN or VPN address to reach it from other devices)
+port = 5191
+
+[accounts]
+url = "http://127.0.0.1:8486"   # the dither-accounts manager's API (env DITHER_ACCOUNTS_URL)
+page = ""                       # its page as a browser opens it, for links; empty: same as url (env DITHER_ACCOUNTS_PAGE)
+
+[jev]
+url = "http://127.0.0.1:7862"   # the local decision model (flows.py's repayments and durable goods) (env JEV_URL)
+
+[claude]
+model = "sonnet"                # what `ledger classify` asks through `claude -p` (env FINANCE_CLAUDE_MODEL)
+about = ""                      # a sentence about you for the classifier, e.g. "The owner is a student who lives alone."
+
+[ledger]
+timezone = "UTC"                # your IANA zone: the calendar day of card swipes and other instants
+
+[dashboard]
+full_from = ""                  # "YYYY-MM": months before it are shaded as incomplete; empty: a checking account's first month
+
+# Keyword rules aren't here: copy ledger/rules.toml to $FINANCE_HOME/data/rules.toml and edit that.

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finance</title>
+<script>document.documentElement.dataset.theme = (() => { try { return localStorage.getItem("ft-theme") || "light"; } catch { return "light"; } })();</script>
+<script>window.PRE = {name: "{{preload}}", p: fetch("/api/{{preload}}", {cache: "no-store"})};   // the page's data, while the scripts load</script>
+<link rel="stylesheet" href="/static/style.css?v={{v:style.css}}">
+<script defer src="/static/common.js?v={{v:common.js}}"></script>
+<script defer src="/static/budget.js?v={{v:budget.js}}"></script>
+<script defer src="/static/dash.js?v={{v:dash.js}}"></script>
+<script defer src="/static/pages.js?v={{v:pages.js}}"></script>
+<script defer src="/static/app.js?v={{v:app.js}}"></script>
+<script>window.GROUPS = {{groups}};</script>
+</head>
+<body>
+<nav class="top"><div class="navbar">
+  <span class="brand">Finance</span>
+  <a href="/" data-p="overview">Overview</a><a href="/spending" data-p="spending">Spending</a><a href="/income" data-p="income">Income</a><a href="/budget" data-p="budget">Budget</a>
+  <a href="/txns" data-p="txns">Transactions</a><a href="/review" data-p="review">Review</a><a href="/people" data-p="people">People</a><a href="/connect" data-p="connect">Connections</a>
+  <span class="sp"></span><span id="busy" title="Loading"></span>
+  <button id="themeBtn" title="Switch light or dark" aria-label="Switch light or dark"></button>
+  <form method="post" action="/logout"><button>Sign out</button></form>
+</div></nav>
+<div id="views"></div>
+<div id="tip"></div>
+</body>
+</html>

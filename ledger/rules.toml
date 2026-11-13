@@ -1,0 +1,63 @@
+# Keyword rules: a generic starter set. Put your own in $FINANCE_HOME/data/rules.toml (same format); when that file
+# exists it is used in place of this one, so start by copying this file there.
+#
+# Each pattern is a Python regex matched against the upper-cased description; the first match wins, so put the
+# narrower pattern first. Categories are the names in ledger/categories.py CATEGORIES.
+#   spend, income:       [pattern, category, merchant]   (merchant is optional: without it, one is read off the description)
+#   venmo_out, venmo_in: [pattern, category]             (matched against a Venmo payment's note)
+#   tags:                [pattern, [tag, ...]]
+
+spend = [
+  ['TRADER JOE', 'Groceries', "Trader Joe's"],
+  ['WHOLEFDS|WHOLE FOODS', 'Groceries', 'Whole Foods'],
+  ['SAFEWAY|KROGER|^ALDI|PUBLIX|WEGMANS|SPROUTS', 'Groceries'],
+  ['UBER ?EATS|DOORDASH|GRUBHUB', 'Dining'],
+  ['STARBUCKS|MCDONALD|CHIPOTLE|^TST\*|CAFE|RESTAURANT|PIZZA', 'Dining'],
+  ['^UBER|^LYFT', 'Transport'],
+  ['AMTRAK|CLIPPER|MTA\*|SHELL |CHEVRON|EXXON', 'Transport'],
+  ['VERIZON|T-MOBILE|AT&T|XFINITY|COMCAST|MINT MOBILE', 'Phone & internet'],
+  ['PG&E|CON ED|ELECTRIC|WATER DEPT', 'Utilities'],
+  ['GEICO|STATE FARM|PROGRESSIVE INS|LEMONADE', 'Insurance'],
+  ['CVS|WALGREENS|RITE AID', 'Health & personal'],
+  ['IKEA|WAYFAIR|HOME DEPOT|LOWE', 'Home'],
+  ['WIRE TRANSFER FEE|OVERDRAFT|FOREIGN TRANSACTION FEE', 'Fees'],
+  ['AMAZON PRIME', 'Memberships', 'Amazon Prime'],   # before Amazon: a membership, not a purchase to judge
+  ['AMAZON|AMZN', 'Shopping', 'Amazon'],
+  ['EBAY', 'Shopping', 'eBay'],
+  ['WAL-?MART|TARGET|COSTCO|BEST BUY', 'Shopping'],
+  ['OPENAI|CHATGPT', 'AI & software', 'ChatGPT'],
+  ['CLAUDE\.AI|ANTHROPIC', 'AI & software', 'Claude'],
+  ['GITHUB|MICROSOFT|GOOGLE \*', 'AI & software'],
+  ['NETFLIX|SPOTIFY|HULU|YOUTUBE|STEAM|PATREON', 'Media & games'],
+  ['AIRBNB|MARRIOTT|HILTON|EXPEDIA', 'Travel'],
+  ['DONATION|GOFUNDME', 'Giving'],
+  ['VENMO|PAYPAL INST XFER|ZELLE', 'People (Venmo/PayPal)'],
+  ['IRS |TAX |US TREASURY', 'Taxes'],
+  ['COINBASE|KRAKEN', 'Investing'],
+  ['OUTGOING WIRE', 'Unlabeled transfer out'],
+]
+
+income = [
+  ['DEPOSIT MOBILE|MOBILE DEPOSIT', 'Checks deposited', 'Mobile check deposit'],
+  ['PAYROLL|DIR DEP|DIRECT DEP', 'Work'],
+  ['VENMO|PAYPAL TRANSFER|ZELLE', 'From people'],
+  ['INTEREST|DIVIDEND', 'Investment income', 'Interest'],
+  ['WIRED FUNDS|FUNDS RECEIVED|^TFR ', 'Transfer in (unlabeled)'],
+  ['US TREASURY|TAX REF', 'Tax refunds'],
+]
+
+venmo_out = [
+  ['\bRENT\b', 'Rent'],
+  ['UBER|LYFT', 'Transport'],
+  ['BRUNCH|DINNER|LUNCH|PIZZA|SUSHI', 'Dining'],
+]
+
+venmo_in = [
+  ['BIRTHDAY|CHRISTMAS|\bGIFT\b|GRADUATION', 'Gifts received'],
+]
+
+tags = [
+  ['OPENAI|CHATGPT|CLAUDE\.AI|ANTHROPIC', ['ai']],
+  ['\bVPN\b|PROTON', ['privacy']],
+  ['COINBASE|KRAKEN', ['crypto']],
+]
