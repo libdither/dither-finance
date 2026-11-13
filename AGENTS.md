@@ -18,7 +18,7 @@ The owner wants to publish this repo. Nothing in it may identify the owner or de
   - `$FINANCE_HOME/data/` for data and data-like rules: rules.toml (the owner's keyword rules, in place of the
     repo's generic ledger/rules.toml), classify-notes.txt, budget.json, people.json.
   - `$FINANCE_HOME/secrets/` for credentials.
-  - `CLAUDE.local.md` (untracked) for notes about this machine and the owner's accounts.
+  - `AGENTS.local.md` (untracked) for notes about this machine and the owner's accounts.
 - **New code:**
   - A new setting goes in config.py with a localhost or neutral default and in config.example.toml.
   - A new owner-specific rule goes in a file under `$FINANCE_HOME`, not in code; a generic one may go in
